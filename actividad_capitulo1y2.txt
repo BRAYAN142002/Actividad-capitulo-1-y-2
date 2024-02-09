@@ -1,0 +1,124 @@
+
+Actividades capítulo 1 y 2 CCNA1
+
+UNIVERSIDAD DEL CAUCA
+
+FECHA:6/02/2024
+NOMBRE: Brayan Majin Gaviria, Freider Escobar cueltan
+CÓDIGO SIMCA:104619021345
+
+Leer los capítulos 1 y 2 del curso de Cisco.
+Responder las preguntas de la lectura y enviarlas en PDF.
+
+Preguntas de lectura: Capítulo 1
+
+1) Listar al menos 5 actividades cotidianas que realiza usted utilizando internet.
+Jugar
+Chatiar
+Escuchar musica
+Mirar peliculas
+Estudiar e investigar
+
+2)Describir los factores que afectan la calidad de las comunicaciones.
+
+tenemos dos factores:
+factores externos:
+esto están relacionados  con la complejidad de la red y el número de dispositivos que debe atravesar un mensaje para llegar a su receptor, para que la comunicación sea exitosa debemos tener en cuenta lo siguiente:
+debemos tener en cuenta La calidad de la ruta entre el emisor y el receptor,  la cantidad de veces que el mensaje tiene que cambiar la forma, las veces que el mensaje tiene que ser redireccionado o redirigido porque hubo algún problema de red, también debemos tener en cuenta la cantidad de mensajes simultáneo que se están enviando y la cantidad de tiempo asignado para una comunicación exitosa.
+
+
+factores internos:
+esto dependen de la naturaleza del mensaje y dependendiendo de la complejidad e importancia de este va ser mas facil o dificil para el receptor comprenderlo correctamente, los factores internos que afectan la comunicación exitosa en la red son:
+tamaño del mensaje
+complejidad del mensaje
+importancia del mensaje
+
+3)Identificar los componentes clave de cualquier red de datos y describir su funcionamiento.
+
+Reglas:
+Medio
+Mensajes
+Dispositivos
+
+4)Responda con sus propias palabras:
+¿Qué son los datos? 
+
+Los datos son información como texto, imágenes, audio o video que queremos transmitir por una red, podemos transmitir esta información de forma inalámbrica o cableado.
+
+¿Qué es una red de datos? 
+Una red de datos es una infraestructura que nos permite transferir información como correo electrónicos, video, mensajería y telefonía entre diferentes dispositivos sin importar a la distancia que estemos y actualmente son muy importantes para la comunicación rápida y eficiente.
+
+¿Qué entiende por arquitectura de red?
+
+Se refiere a la estructura y diseño de una red de comunicaciones,incluyendo la manera en que los diferentes dispositivos se interconectan y se comunican entre sí, así como a los servicios y protocolos programados que pueden trasladar los mensajes en esa infraestructura, la arquitectura debe cumplir las expectativas del usuario: tolerancia a fallas, escalabilidad, calidad de servicio seguridad.
+
+¿Qué es una red convergente?
+Es la cual permite transmitir voz, video y audio a través de una sola plataforma, eliminando la necesidad de redes separadas para cada tipo de comunicación.
+
+Describir las características de las arquitecturas de red
+
+Tolerante a fallas:
+
+Una red tolerante a fallas es la que limita el impacto de una falla de software o hardware y puede recuperarse rápidamente cuando se produce dicha falla.
+ejemplo: cuando estamos hablando por una videollamada y de pronto se corta o se interrumpe la señal y vuelve y se reconecta para poder seguir con la conversación.
+
+Escalabilidad:
+
+Una red escalable es la que puede expandirse y crecer rápidamente para admitir nuevos usuarios sin comprometer su rendimiento, eficiencia o calidad de servicio. 
+ejemplo: un ejemplo claro sería cuando un proveedor de internet quiere aumentar el ancho de banda para poder incrementar los clientes, tiene que hacer de forma que la red no se mire afectada
+
+Calidad del servicio :
+
+es la cual proporciona servicios seguros, eficientes y garantizados para que a la hora de enviar mensajes o cualquier tipo de información el receptor no tenga perdida de información y l a comunicación sea la mejor posible
+ejemplo:la calidad de internet que tenemos en nuestras casas, si esta disponible siempre o la mayoría de veces no hay conexión 
+
+Seguridad. Mostrar sus respectivos ejemplos. 
+
+Es muy importante para proteger la infraestructura de la red y el contenido de la información enviada se deben implementar técnicas para garantizar la confidencialidad, la integridad y la disponibilidad de los datos debido a que puede haber involucrada información muy importante para empresas como para las personas que utilizan la red.
+ejemplo:l seguridad con nuestra información personal, que terceros no puedan acceder a ella
+
+5) Investigar qué son las redes orientadas y no orientadas a la conexión.
+
+redes orientada a conexión: En esta se debe establecer una conexión antes de transferir los datos, este enfoque garantiza una transmisión fiable y estable entre dispositivos lo que las hace importante para ámbitos empresariales y aplicaciones críticas como la transmisión de voz y video
+
+no orientadas a la conexión:en estas no es necesario establecer una conexión pueden presentar problemas de pérdida o desorden de datos, estas redes son adecuadas para aplicaciones que no requiere una transferencia de datos crítica como el correo electrónico.
+
+6) Describa que es la calidad del servicio y que se necesita para mantener una buena calidad de servicio para las aplicaciones que lo requieren.
+la calidad de servicios es la cual proporciona servicios seguros, eficientes y garantizados para que a la hora de enviar mensajes o cualquier tipo de información el receptor no tenga perdida de información y la comunicación sea la mejor posible y para lograr esto se necesita administrar parámetros de pérdida de paquetes, el retraso y la congestión para asegurarse que los diferentes tipos de tráfico  de datos reciben el nivel de servicios adecuados
+
+7)¿Por qué importa la calidad del servicio en una red de datos? 
+porque garantiza que los servicios de comunicación sean seguros, predecibles, mensurables  y en algunos casos garantizados . los QOs es esencial para asegurar que los diferentes tipos de tráfico de datos reciban el nivel de servicios adecuado, o que incluye la asignación de prioridades para diferentes tipos de comunicación, como aumentar la prioridad para servicios sensibles al tiempo, como el teléfono o la distribución de vídeos, y disminuir la prioridad para comunicaciones no sensibles al tiempo, como la recuperación de páginas web o correos electrónico
+
+8)Investiga sobre qué son los proveedores de Internet de Nivel-1 (Tier-1) y Nivel-2 (Tier-2), y cómo se diferencian en términos de infraestructura, alcance y relaciones comerciales.
+Los ISP de Nivel-1: brindan conexiones nacionales e internacionales. Estos ISP se tratan entre sí como iguales, el alcance de estos es mundial y no depende de otros proveedores para acceder a internet.
+Los ISP de Nivel-2: son más pequeños y generalmente, brindan un servicio regional o nacional. Los ISP de nivel 2 generalmente pagan a los ISP de nivel 1 la conectividad con el resto de internet, el punto donde los ISP se interconecta se denomina límite.
+Los ISP de Nivel-3: son los proveedores de servicio local directamente ofrecen los servicios de internet  a los usuarios finales como a pequeñas empresas, y hogares en ubicaciones específicas. Los ISP de nivel 3, generalmente están conectados a los ISP de nivel 2 y les pagan a los proveedores de nivel 2 para acceder a internet.
+
+9)Identifica al menos tres proveedores de Internet de nivel mundial y clasifícalos en Nivel-1 (Tier-1) o Nivel-2 (Tier-2) según su posición en la jerarquía de la red. Identifica al menos 2 proveedores de internet en Colombia.
+proveedores de nivel 1:
+Verizon 
+Sprint
+AT&T
+NTT
+CenturyLink
+
+proveedores de nivel 2:
+UNE EPM Telecomunicaciones
+xtrim fibra
+Nefline
+WOm Fiber
+
+proveedores de nivel 3:
+Sistel Comunicaciones
+Innova Soluciones Tecnológicas
+Emtel
+DobleClick
+Claro
+Tigo
+
+10)Investiga sobre la importancia de los proveedores de Internet de Nivel-1 y Nivel-2 en la conectividad global, incluyendo su papel en la transmisión de datos a través de Internet. 
+Los proveedores de internet de Nivel 1 y Nivel 2 desempeñan roles fundamentales en la conectividad global y en la transmisión de datos, los proveedores de nivel 1 son aquellos que tiene una presencia global y no depender de otros proveedores para alcanzar cualquier destino de internet, estos tiene una red extensa y se conectan con otros proveedores de nivel 1 los que les permite tráfico a nivel global sin depender de intermediarios, por otra parte tenemos los proveedores Nivel 2 estos no tienen una presencia global directa, pero se conectan a proveedores de nivel 1 para acceder a redes y destinos globales. Estos proveedores desempeñan un papel importante al proporcionar conectividad a nivel regional y nacional, y actúan como intermediarios entre los proveedores de Nivel-1 y los proveedores de nivel inferior. Su papel es crucial para la transmisión de datos a través de Internet, ya que facilitan la conectividad a nivel regional y nacional, permitiendo que el tráfico de datos se transmita de manera eficiente a través de redes locales y regionales 
+
+11) Reflexiona sobre el papel crucial de los proveedores de Internet en la infraestructura digital global y cómo su gestión y regulación pueden impactar en la equidad y la eficiencia del acceso a Internet.
+Los proveedores de Internet desempeñan un papel crucial en la infraestructura digital global al proporcionar la conectividad necesaria para que los usuarios accedan a Internet y se comuniquen a nivel mundial. Su gestión y regulación pueden tener un impacto significativo en la equidad debido a la gestión y regulación de los proveedores de internet que pueden influir en la disponibilidad y asequibilidad del acceso del internet para diferentes comunidades y regiones donde hay muchas brechas de conectividad y les es casi imposible conectarse a internet.
+

@@ -156,7 +156,18 @@ Al ser independientes de la tecnología, los protocolos pueden funcionar sobre d
 6)Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
 Una Unidad de Datos de Protocolo (PDU) es la forma que adoptan los datos en cada capa o nivel de la pila de protocolos de red durante el proceso de encapsulación. Cada protocolo de red agrega información de control y direccionamiento a los datos que provienen de la capa superior, convirtiéndolos en una PDU para esa capa específica.
 
-7) Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).Se adjunta imagen
+7) Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
+
+Los protocolos son esenciales en las comunicaciones de red ya que definen un conjunto de reglas y procedimientos estandarizados que permiten que dispositivos de diferente hardware y software se puedan comunicar entre sí.
+
+El proceso de encapsulamiento de datos consiste en que cada capa o nivel del modelo TCP/IP le agrega información de control y direccionamiento a los datos que provienen de la capa superior. De esta manera, los datos se van encapsulando en diferentes unidades o PDUs en cada capa.
+
+La capa de aplicación tiene los datos puros producidos por las aplicaciones.
+La capa de transporte encapsula los datos en segmentos, agregando información de puertos origen/destino.
+La capa de Internet encapsula los segmentos en paquetes, agregando las direcciones IP origen y destino.
+La capa de acceso a red encapsula los paquetes IP en tramas, agregando direcciones MAC y otros campos de control de enlace de datos.
+Finalmente se transmiten los bits por el medio físico.
+
 
 8) Describir la diferencia entre los modelos de protocolo y modelos de referencia.
 

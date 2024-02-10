@@ -5,7 +5,7 @@ UNIVERSIDAD DEL CAUCA
 
 FECHA:6/02/2024
 NOMBRE: Brayan Majin Gaviria, Freider Escobar cueltan
-CÓDIGO SIMCA:104619021345
+CÓDIGO SIMCA:104619021345, 104620011794
 
 Leer los capítulos 1 y 2 del curso de Cisco.
 Responder las preguntas de la lectura y enviarlas en PDF.
@@ -122,3 +122,61 @@ Los proveedores de internet de Nivel 1 y Nivel 2 desempeñan roles fundamentales
 11) Reflexiona sobre el papel crucial de los proveedores de Internet en la infraestructura digital global y cómo su gestión y regulación pueden impactar en la equidad y la eficiencia del acceso a Internet.
 Los proveedores de Internet desempeñan un papel crucial en la infraestructura digital global al proporcionar la conectividad necesaria para que los usuarios accedan a Internet y se comuniquen a nivel mundial. Su gestión y regulación pueden tener un impacto significativo en la equidad debido a la gestión y regulación de los proveedores de internet que pueden influir en la disponibilidad y asequibilidad del acceso del internet para diferentes comunidades y regiones donde hay muchas brechas de conectividad y les es casi imposible conectarse a internet.
 
+
+Preguntas de lectura: Capítulo 2
+
+1) Describir la estructura de una red, incluidos los dispositivos, medios y servicios necesarios para lograr comunicaciones exitosas. 
+
+Dispositivos:dispositivos finales son aquellos que puede ser el origen o el destino de un mensaje transmitido a través de la red, los que constituyen la interfaz entre la red humana y la red de comunicación subyacente un ejemplo de estos es: computadores, impresoras de red, teléfonos VoIP, cámaras de seguridad etc.
+
+Medios:Los medios de red pueden ser hilos metálicos dentro de cables, fibras de vidrio o plásticas (cable de fibra óptica), y transmisión inalámbrica. La codificación de señal que se debe realizar para que el mensaje sea transmitido es diferente para cada tipo de medio. En los hilos metálicos, los datos se codifican dentro de impulsos eléctricos que coinciden con patrones específicos. Las transmisiones por fibra óptica dependen de pulsos de luz, dentro de intervalos de luz visible o infrarroja. En las transmisiones inalámbricas, los patrones de ondas electromagnéticas muestran los distintos valores de bits
+
+Servicios:Los servicios de red son programas de comunicación, es decir, software que se ejecuta en los dispositivos conectados a la red. Estos servicios proporcionan información en respuesta a una solicitud y abarcan una amplia gama de aplicaciones de red comunes utilizadas diariamente, como los servicios de correo electrónico y de alojamiento web. Los procesos, por otro lado, proporcionan la funcionalidad que direcciona y traslada mensajes a través de la red, aunque son meno
+
+2) Comparar y contrastar los siguientes términos: RED, LAN, WAN, INTERNETWORK E INTERNET.
+
+* RED: La conexión entre varios dispositivos que comparten información entre sí.
+* LAN: Una red local que conecta dispositivos en un área pequeña, como oficinas, hogar, etc.
+* WAN: Una red que cubre un área geográfica extensa, donde conecta redes LAN separadas.
+* INTERNETWORK: Es la conexión de múltiples redes, como LANs y WANs.
+* INTERNET: Es la internet global pública que conecta millones de redes y dispositivos, utilizando el protocolo TCP/IP para comunicarse.
+Teniendo los términos de cada uno, podemos hacer la comparación y contraste, donde podemos decir: Todas son formas de redes , pero difieren en el alcance geográfico. LAN es local, WAN abarca áreas extensas e internetwork se refiere a la interconexión de estas redes. La interconexión de redes locales y globales forma un internetwork que, a su vez, puede conectarse a Internet.
+
+3) ¿Cuál es la diferencia entre INTERNETWORK E INTERNET?
+
+La diferencia principal es que internetwork es la conexión entre dos o más redes de computadoras individuales a través de enrutadores. Internet es la internetwork global pública que conecta millones de redes y dispositivos de todo el mundo.
+
+4) Describir la diferencia entre Tarjeta de interfaz de red (NIC), puerto físico e interfaz de red.
+Mientras que la NIC se enfoca en la conexión física en el dispositivo host, el puerto físico se refiere al conector o toma en un dispositivo de red. La interfaz, son puertos especializados que conectan el router con redes individuales.
+
+5) ¿Por qué se dice que un protocolo es independiente de la tecnología? 
+
+Al ser independientes de la tecnología, los protocolos pueden funcionar sobre diferentes hardwares y redes, lo que permite la interoperabilidad y flexibilidad para adaptarse a innovaciones futuras.
+
+6)Consultar y explicar brevemente qué es una Unidad de Datos del Protocolo (PDU).
+Una Unidad de Datos de Protocolo (PDU) es la forma que adoptan los datos en cada capa o nivel de la pila de protocolos de red durante el proceso de encapsulación. Cada protocolo de red agrega información de control y direccionamiento a los datos que provienen de la capa superior, convirtiéndolos en una PDU para esa capa específica.
+
+7) Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).Se adjunta imagen
+
+8) Describir la diferencia entre los modelos de protocolo y modelos de referencia.
+
+Un modelo de protocolo proporciona un marco específico que coincide con la estructura de una suite de protocolos para que las comunicaciones sean exitosas, un ejemplo de este es el modelo TCP/IP ya que describe las funciones de cada capa de protocolos dentro del conjunto TCP/IP.
+Por otra parte, un modelo de referencia proporciona una referencia común para mantener consistencia en todos los tipos de protocolos y servicios de red. No está pensado para ser una especificación de implementación ni para proporcionar un nivel de detalle suficiente para definir de forma precisa los servicios de la arquitectura de red. El propósito principal de un modelo de referencia es asistir en la comprensión más clara de las funciones y los procesos involucrados. 
+
+9) Describir la función de cada capa en los dos modelos de red: TCP/IP y OSI.
+
+		Modelo TCP/IP
+Capa de aplicación:Esta es la que proporciona la interfaz entre las aplicaciones que utilizamos para  comunicarnos y la red en la cual se transmiten los mensajes, los protocolos de esta capa se utilizan para intercambiar los datos entre los programas que se ejecutan en dispositivos finales.
+capa de transporte:es la que se encarga de proporcionar un servicio de transporte confiable y eficiente para el intercambio de datos entre dispositivos  finales, esta capa es la encargada de segmentar la información, reensamblar y controlar el flujo de datos para garantizar que la información se transmita de forma confiable y ordenada
+capa de internet:Esta es la responsable de enrutar paquetes a través de diferentes redes para llegar a su destino, utiliza direcciones lógicas, como las direcciones ip, para identificar dispositivos y determinar la mejor ruta para la transmisión de datos, está también encapsula los datos recibidos de la capa de transporte en paquetes y agrega información de enrutamiento necesaria para  permitir la entrega de datos a través de las redes interconectadas
+capa de acceso a la red:se encarga de la transmisión de datos entre dispositivos en la misma red local, esta capa se encarga de la segmentación y multiplexación de los datos para su transmisión a través de la red.
+
+		Modelo OSI
+capa de aplicación:proporciona los medios para la conectividad de extremo a extremo entre individuos de la red humana que usa redes de datos,  también se encarga de la traducción, compresión y encriptación de los datos para garantizar  que pueda ser interpretados por el receptor.
+capa de presentación:esta proporciona una representación común de los datos transferidos entre los servicios de la capa de aplicación, también se encargan de la codificación y conversión de datos de la capa de aplicación para garantizar que los datos del dispositivo de origen puedan ser interpretados por la aplicación adecuada en el dispositivo de destino, también realiza la compresión de los datos para que en el destino puedan ser descomprimidos y también se encarga de la encriptación.
+ Capa de Sesión:Es la responsable de establecer, mantener y finalizar las sesiones de comunicación entre dispositivos, también se encarga de la sincronización y el control de diálogos entre las aplicaciones en diferentes dispositivos, permitiendo que se establezcan conexiones temporales para el intercambio de datos.
+Práctica trabajo colaborativo
+capa de transporte:es la que se encarga de proporcionar un servicio de transporte confiable y eficiente para el intercambio de datos entre dispositivos  finales, esta capa es la encargada de segmentar la información, reensamblar y controlar el flujo de datos para garantizar que la información se transmita de forma confiable y ordenada.
+la capa de red: es la encargada de la conmutación y enrutamiento de datos a través de la red. Esta es responsable de determinar la mejor ruta para el envío de datos desde el origen hasta el destino, así como de controlar el flujo de datos y la congestión de red.
+capa de enlace de datos: esta se encarga de la segmentación de los datos en tramas, así como la detección y corrección de errores que pueden ocurrir durante la transmision, ademas controla el flujo de datos y acceso al medio, garantizando que la comunicación entre dispositivos sea eficiente y ordenada.  
+capa Física:se encarga de la transmisión de datos a través del medio físico, defendiendo las características eléctricas, mecánicas y funcionales de la interfaz entre dispositivos y el medio de transmisión. 
